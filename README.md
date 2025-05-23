@@ -20,9 +20,13 @@
 - falta notificar cuando el administrador rechaza una reserva, por ahora solo notifica cuando 
 ## Diagrama de clases
 ### Errores
-- *Gestionar notificaciones es un adapter*
-- * no se muestra como se relacionan las tablas falta las asociaciones y dependencias
-  * no hay relacion entre la tabla reserva y la tabla sala*
--
+- Gestionar notificaciones es un adapter*
+- no se muestra como se relacionan las tablas falta las asociaciones y dependencias
+- no hay relacion entre la tabla reserva y la tabla sala*
+- *falta conexion entre la tabla usuario y reserva*
 
+##justificacion 
+- una reserva tiene que estar relacionada a una sala
+- un usuario hace reservas entonces falta conexion entre la tabla usuario a la tabla reservas
+- 
 
